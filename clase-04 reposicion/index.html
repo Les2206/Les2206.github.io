@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">
+            <span>¿Cuál es tu nombre?</span>
+            <input type="text" name="nombre" id="nombre">
+        </label>
+        <label for="nacimiento">
+            <span>¿Cuándo naciste?</span>
+            <input type="date" name="nacimiento" id="nacimiento">
+        </label>
+        <label for="correo">
+            <span>¿Cuál es tu correo?</span>
+            <input type="email" name="correo" id="correo">
+        </label>
+        <label for="fecha1">
+            <span>¿Cuándo y a qué hora naciste?</span>
+            <input type="datetime-local" name="fecha1" id="fecha1">
+        </label>
+        <label for="cars">
+            <span>Elige un carro:</span>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </label>
+        <label for="frutas"> 
+            <span>Elige una fruta:</span>
+            <select name="frutas" id="frutas">
+                <option value="naranja">Naranja</option>
+                <option value="mango">Mango</option>
+                <option value="limon">Limón</option>
+                <option value="manzana">Manzana</option>
+                <option value="piña">Piña</option>
+            </select>
+        </label>
+        <label for="cars2">
+            <span>Elige un carro:</span>
+            <input list="cars2">
+                <datalist id="cars2">
+                    <option value="Volvo">
+                    <option value="BMW">
+                    <option value="Mercedes">
+                    <option value="Audi">
+                </datalist>
+        </label>
+        <input type="submit" name="enviar" id="enviar">
+    </form>
+    <input type="button" value="¡Haz clic aquí!">
+</body>
+</html>
